@@ -790,7 +790,7 @@
   <div class="finding reveal">
     <div class="finding-title">Key Finding</div>
     <div class="finding-text">
-      <strong>Positional play dominates.</strong> 44% of all games opened with positional systems nearly double the rate of any aggressive alternative. Very aggressive openings (gambits, attacks) accounted for 25.6%, while balanced and purely aggressive styles split the rest. The average chess player, it seems, prefers to build rather than brawl — at least when picking their opening moves.
+      <strong>Positional play dominates.</strong> 44% of all games opened with positional systems nearly double the rate of any aggressive alternative. Very aggressive openings (gambits, attacks) accounted for 25.6%, while balanced and purely aggressive styles split the rest. The average chess player, it seems, prefers to build rather than brawl   at least when picking their opening moves.
     </div>
   </div>
 
@@ -868,7 +868,7 @@
       <div class="chapter-label">Chapter Three</div>
       <h2 class="chapter-title">How Games End: The Decisiveness Story</h2>
       <p class="chapter-body">
-        Win rates tell us <em>who</em> wins, but not <em>how</em>. We measured "decisiveness": a score from 0 (draw) to 3 (checkmate) and mapped it across opening styles. Do aggressive openings at least lead to more dramatic conclusions?
+        Win rates tell us <em>who</em> wins, but not <em>how</em>. We measured "decisiveness" a score from 0 (draw) to 3 (checkmate) and mapped it across opening styles. Do aggressive openings at least lead to more dramatic conclusions?
       </p>
     </div>
   </div>
@@ -1112,7 +1112,7 @@
         <div class="badge-sub">Checkmate, Opening Style</div>
       </div>
       <div class="verdict-body">
-        <div class="verdict-summary">Does aggression win at chess? <strong>Sort of — but only in the right context.</strong> Skill level is the dominant factor; style yields a small edge that flips across ratings.</div>
+        <div class="verdict-summary">Does aggression win at chess? <strong>Sort of   but only in the right context.</strong> Skill level is the dominant factor; style yields a small edge that flips across ratings.</div>
 
         <div class="verdict-chips">
           <div class="verdict-chip">Max Style Effect: 5.6%</div>
@@ -1121,8 +1121,8 @@
         </div>
 
         <div class="verdict-more" id="verdictMore">
-          <p class="verdict-text">At <strong>lower skill levels</strong>, aggressive openings provide a genuine statistical edge — gambits and sharp attacks exploit common defensive mistakes. As players improve, however, positional play becomes more reliable: experienced opponents neutralize early chaos and convert material or structural advantages.</p>
-          <p class="verdict-text">The practical takeaway: if you're an underdog, sharper, aggressive lines can increase variance in your favor. If you're the stronger player, play solid positional chess to reduce upsets. Ultimately, work on fundamentals — rating matters far more than opening style.</p>
+          <p class="verdict-text">At <strong>lower skill levels</strong>, aggressive openings provide a genuine statistical edge gambits and sharp attacks exploit common defensive mistakes. As players improve, however, positional play becomes more reliable: experienced opponents neutralize early chaos and convert material or structural advantages.</p>
+          <p class="verdict-text">The practical takeaway: if you're an underdog, sharper, aggressive lines can increase variance in your favor. If you're the stronger player, play solid positional chess to reduce upsets. Ultimately, work on fundamentals rating matters far more than opening style.</p>
         </div>
 
         <button class="verdict-toggle" id="verdictToggle">Read more</button>
@@ -1135,7 +1135,7 @@
 
 <footer>
   <div style="margin-bottom:16px; font-size:22px;">♟ ♟ ♟</div>
-  Dataset: <a href="https://database.lichess.org/" target="_blank" rel="noopener noreferrer" class="gold">Lichess Chess Games</a> · 20,058 games · Analysis by <span class="gold">Python / Pandas / Matplotlib</span>
+  Dataset: <a href="https://database.lichess.org/" target="_blank" rel="noopener noreferrer" class="gold">Lichess Chess Games</a> · 20,058 games ·
   <br><br>
   Submitted for the <span class="gold">Codédex Data Science Monthly Challenge</span> · February 2026
   <br><br>
@@ -1524,7 +1524,7 @@ if (sectionCounter) {
         const titleEl = e.target.querySelector('.chapter-title') || e.target.querySelector('.chapter-label');
         const label = numEl ? numEl.textContent.trim() : '';
         const title = titleEl ? titleEl.textContent.trim() : '';
-        sectionCounter.textContent = title ? `${label} — ${title}` : label;
+        sectionCounter.textContent = title ? `${label}   ${title}` : label;
         sectionCounter.classList.add('visible');
         if (sectionCounter._hideTimeout) clearTimeout(sectionCounter._hideTimeout);
         sectionCounter._hideTimeout = setTimeout(() => sectionCounter.classList.remove('visible'), 1600);
